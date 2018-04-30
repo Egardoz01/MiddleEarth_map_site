@@ -1,39 +1,90 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<style>
-.hint{
-		display:none;
-		position: absolute; 
-		z-index:99999; 
-		top: 0px; 
-		left: 0px;
-		width:100px; 
-		background:#FFF; 
-		opacity:0.85;
-		border:1px solid #000;
-	}
 
-</style>
+
+
 <html >
 <!--onmousedown="showCoords(event)"-->
  <head>
   <title>карта средиземья</title>
  </head>
- <body >
+ <body id="bod">
 
 
 <img class="draggable" usemap="#Navigation"  id="image" class="foto" src="img/middle_earth_idial4.jpg" alt="здесь должена быть карта средиземья" >
 <p><map id="Navigation" name="Navigation">
-    <area shape="circle" coords="1572,892,10" href="MInastirit.html" alt="Информация">
-    <area  shape="circle" coords="1810,853,15" href="activity.html" alt="Мероприятия">
+    <area shape="circle" coords="1572,892,10" href="MInastirit.html">
+    <area shape="circle" coords="1810,853,15" href="activity.html">
+	<area shape="circle" coords="1717,321,15" href="activity.html">
+	<area shape="circle" coords="1706,386,15" href="activity.html">
+	<area shape="circle" coords="1405,544,15" href="activity.html">
+	<area shape="circle" coords="1301,509,15" href="activity.html">
+	<area shape="circle" coords="1304,378,15" href="activity.html">
+	<area shape="circle" coords="1322,787,15" href="activity.html">
+	<area shape="circle" coords="1255,747,15" href="activity.html">
+	<area shape="circle" coords="1249,681,10" href="activity.html">
+	<area shape="circle" coords="1339,652,35" href="activity.html">
+	<area shape="circle" coords="1163,388,15" href="activity.html">
+	<area shape="circle" coords="1086,380,15" href="activity.html">
+	<area shape="circle" coords="1027,409,20" href="activity.html">
+	<area shape="circle" coords="913,401,70" href="activity.html">
+	<area shape="circle" coords="1661,905,15" href="activity.html">
+	<area shape="circle" coords="1712,763,15" href="activity.html">
+	<area shape="circle" coords="1862,833,15" href="activity.html">
    </map></p>
-   <div class="hint">Минастирит</div>
+   <div class="hint">Минас-Тирит</div>
    <div class="hint">Ородруин</div>
- </body>
-
+    <div class="hint">Эребор</div>
+	<div class="hint">Эсгарот</div>
+	<div class="hint">Лориэн</div>
+	<div class="hint">Мория</div>
+	<div class="hint">Ривенделл</div>
+	<div class="hint">Эдорас</div>
+	<div class="hint">Хельмова Падь</div>
+	<div class="hint">Изенгард</div>
+	<div class="hint">Лес фангорн</div>
+	<div class="hint">Амон Сул</div>
+	<div class="hint">Бри</div>
+	<div class="hint">Древлепуща</div>
+	<div class="hint">Шир</div>
+	<div class="hint">Минас-Моргул</div>
+	<div class="hint">Мораннон</div>
+	<div class="hint">Барад-дур</div>
 </html>
 
 
  <script src="main.js">
 
 </script>
+<style>
+@font-face{
+
+font-family: 'Aniron';
+src: url('C:/Users/Егардоз/Desktop/MIDDle Earth map/aniron.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+
+
+body
+{
+	background-image:  url(img/bumaga.jpg);
+}
+.hint{
+		display:none;
+		position: absolute; 
+		z-index:99999; 
+		height:20px;
+		top: 0px; 
+		left: 0px;
+		background:#A67900; 
+		opacity:0.85;
+		border:1px solid #000;
+		font-family: Aniron;
+		 font-size: 9pt;
+	}
+
+</style>

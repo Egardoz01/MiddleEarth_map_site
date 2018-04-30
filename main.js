@@ -1,8 +1,10 @@
 
+
+
+
 var v=[];
 v=document.getElementsByTagName("area");
 var h=document.getElementsByClassName("hint");
-var obj=h[0];
 
 
 
