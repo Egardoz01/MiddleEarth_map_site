@@ -1,5 +1,18 @@
 
 
+var vaa=document.getElementsByClassName("vaa");
+
+vaa[0].onmouseover=pod;
+vaa[0].onmouseout=od;
+
+function pod(e)
+{
+	e.target.style.color="#FFF973";
+}
+function od(e)
+{
+	e.target.style.color="#A64B00";
+}
 
 
 var v=[];
