@@ -1,5 +1,4 @@
 
-
 var vaa=document.getElementsByClassName("vaa");
 
 vaa[0].onmouseover=pod;

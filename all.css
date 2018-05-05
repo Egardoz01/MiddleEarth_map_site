@@ -65,7 +65,7 @@ div
 }
 .lust
 {
-	color: #FFFB40;
+	color: #FFFF40;
 	background-image: url(img/fonn.jpg);
 	display: block;
 	margin-top: 20%;
@@ -75,6 +75,26 @@ div
 	//background-color: #696969;
 	
 }
+footer
+{
+	//position: absolute;
+	width: 100%;
+	padding-top: 20px;
+	font-family: Aniron;
+	color: gold;
+	background-color: black;
+	
+}
+.leftimg {
+    float:left; 
+    margin: 7px 7px 7px 0; 
+	margin-left: 7px;
+   }
+.rightimg  {
+    float: right; 
+    margin: 7px 0 7px 7px;
+	margin-right: 7px;
+   }
 td
 {
 	font-family: Aniron;
